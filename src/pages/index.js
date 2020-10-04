@@ -234,7 +234,7 @@ const IndexPage = () => {
       data.visitorsBadge ||
       data.githubProfileTrophy ||
       data.githubStats ||
-      data.topLanguages || 
+      data.topLanguages
     ) {
       if (social.github && isGitHubUsernameValid(social.github)) {
         generate()
